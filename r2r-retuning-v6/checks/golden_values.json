@@ -1,0 +1,1734 @@
+{
+  "created_at": "2026-09-15T08:00:55.457320+00:00",
+  "entries": {
+    "compute/identify_P01_D03_field_matched_mare_pct": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 9.340231631744864
+    },
+    "compute/roundtrip_P01_noise_free_tlog1ms_mare_pct": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 7.867194624625414e-07
+    },
+    "compute/simulation_P01_ET3.control_effort_rms_Nm": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 3.8327396809396808
+    },
+    "compute/simulation_P01_ET3.control_effort_rms_V": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 3.8327396809396808
+    },
+    "compute/simulation_P01_ET3.duration_s": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 4.0
+    },
+    "compute/simulation_P01_ET3.max_overshoot_N": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 1.1957740733171516
+    },
+    "compute/simulation_P01_ET3.samples": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 401.0
+    },
+    "compute/simulation_P01_ET3.t90_s": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.0
+    },
+    "compute/simulation_P01_ET3.tension_rms_N": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.13979291753756157
+    },
+    "compute/tau_min_s.P01": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.04640161287116221
+    },
+    "compute/tau_min_s.P02": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.030804350789498183
+    },
+    "compute/tau_min_s.P03": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.015452286079474496
+    },
+    "compute/tau_min_s.P04": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.03622710025130371
+    },
+    "compute/tau_min_s.P05": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.06736526112949175
+    },
+    "compute/tau_min_s.P06": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.007494623413440421
+    },
+    "compute/tau_min_s.P07": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.01192910842230728
+    },
+    "compute/tau_min_s.P08": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.040318242696734743
+    },
+    "compute/tau_min_s.P09": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.007622888304541203
+    },
+    "compute/tau_min_s.P10": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.01701692135801273
+    },
+    "compute/zeta_cl_min.P01": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.15107866376622966
+    },
+    "compute/zeta_cl_min.P02": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.23677897720853416
+    },
+    "compute/zeta_cl_min.P03": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.3499426548779677
+    },
+    "compute/zeta_cl_min.P04": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.20077817432831155
+    },
+    "compute/zeta_cl_min.P05": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.14401006305573646
+    },
+    "compute/zeta_cl_min.P06": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.5152867162006646
+    },
+    "compute/zeta_cl_min.P07": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.3570198165101998
+    },
+    "compute/zeta_cl_min.P08": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.17927398201199632
+    },
+    "compute/zeta_cl_min.P09": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.530424026001588
+    },
+    "compute/zeta_cl_min.P10": {
+      "provenance": "checks.probes.compute_probes",
+      "rel_tol": 1e-09,
+      "source": "fresh",
+      "value": 0.209859547125552
+    },
+    "payload/validate.closed-loop-damping/__digest": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 0.0,
+      "source": "cached",
+      "tolerance_reason": "structural fingerprint (digest/leaf_count) must match exactly",
+      "value": 2886696333087051.0
+    },
+    "payload/validate.closed-loop-damping/__leaf_count": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 0.0,
+      "source": "cached",
+      "tolerance_reason": "structural fingerprint (digest/leaf_count) must match exactly",
+      "value": 15869.0
+    },
+    "payload/validate.drift/__digest": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 0.0,
+      "source": "cached",
+      "tolerance_reason": "structural fingerprint (digest/leaf_count) must match exactly",
+      "value": 1761765159561201.0
+    },
+    "payload/validate.drift/__leaf_count": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 0.0,
+      "source": "cached",
+      "tolerance_reason": "structural fingerprint (digest/leaf_count) must match exactly",
+      "value": 18973.0
+    },
+    "payload/validate.excitation/__digest": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 0.0,
+      "source": "cached",
+      "tolerance_reason": "structural fingerprint (digest/leaf_count) must match exactly",
+      "value": 2680978347757801.0
+    },
+    "payload/validate.excitation/__leaf_count": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 0.0,
+      "source": "cached",
+      "tolerance_reason": "structural fingerprint (digest/leaf_count) must match exactly",
+      "value": 3951.0
+    },
+    "payload/validate.logging-rate.metrics.best_noisy_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.2854033199394831
+    },
+    "payload/validate.logging-rate.metrics.best_noisy_MARE_theta_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 28.540331993948307
+    },
+    "payload/validate.logging-rate.metrics.best_noisy_tau_min_over_tlog": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 4.38461957475811
+    },
+    "payload/validate.logging-rate.metrics.best_tension_only_MARE_theta_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 10.832253073244532
+    },
+    "payload/validate.logging-rate.metrics.nf_guideline_tau_min_over_tlog": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 5.0
+    },
+    "payload/validate.logging-rate/__digest": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 0.0,
+      "source": "cached",
+      "tolerance_reason": "structural fingerprint (digest/leaf_count) must match exactly",
+      "value": 1651655411404349.0
+    },
+    "payload/validate.logging-rate/__leaf_count": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 0.0,
+      "source": "cached",
+      "tolerance_reason": "structural fingerprint (digest/leaf_count) must match exactly",
+      "value": 9184.0
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[0].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 12.296767194314683
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[0].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 12.0
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[1].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 21.514879481164463
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[1].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 22.0
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[2].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 26.046245352990773
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[2].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 26.0
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[3].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 30.409860132875494
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[3].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 31.0
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[4].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 88.94659590509721
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[4].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 89.0
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[5].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 3.7783959225054007
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[5].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 3.83
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[6].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 58.22860315949363
+    },
+    "payload/validate.noise-aware-logging-lpf.comparison_table[6].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 58.24
+    },
+    "payload/validate.noise-aware-logging-lpf.cross_channel_comparison[0].dashboard_tension_only_median_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 16.0584903139126
+    },
+    "payload/validate.noise-aware-logging-lpf.cross_channel_comparison[0].dashboard_velocity_only_median_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 397.9020946656784
+    },
+    "payload/validate.noise-aware-logging-lpf.cross_channel_comparison[1].dashboard_tension_only_median_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 25.59457116692247
+    },
+    "payload/validate.noise-aware-logging-lpf.cross_channel_comparison[1].dashboard_velocity_only_median_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 313.51984060692735
+    },
+    "payload/validate.noise-aware-logging-lpf.cross_channel_comparison[2].dashboard_tension_only_median_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 77.99600867606655
+    },
+    "payload/validate.noise-aware-logging-lpf.cross_channel_comparison[2].dashboard_velocity_only_median_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 86.43595051955873
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[0].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 290.7134440845065
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[0].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 291.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[10].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 54.366913705700725
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[10].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 55.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[11].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 53.405698884024105
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[11].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 54.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[12].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 63.520605562050164
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[12].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 63.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[13].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 88.59055140101694
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[13].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 88.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[14].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 12.887026126244937
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[14].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 13.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[15].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 14.888578480801375
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[15].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 15.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[16].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 22.384038004668753
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[16].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 22.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[17].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 33.32252947790114
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[17].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 33.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[18].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 37.108499904419354
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[18].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 37.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[19].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 64.93331300108291
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[19].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 65.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[1].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 144.63603362212135
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[1].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 145.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[20].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 84.29309012747947
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[20].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 84.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[21].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 12.296767194314683
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[21].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 12.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[22].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 13.483301643375249
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[22].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 13.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[23].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 18.054407354434574
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[23].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 18.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[24].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 21.514879481164463
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[24].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 22.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[25].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 26.046245352990773
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[25].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 26.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[26].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 65.4183755091992
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[26].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 65.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[27].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 88.94659590509721
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[27].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 89.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[28].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 41.626775583756704
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[28].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 42.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[29].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 37.25275967689694
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[29].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 37.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[2].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 66.27616449191655
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[2].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 66.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[30].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 28.511424125004527
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[30].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 29.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[31].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 42.006571362140576
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[31].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 42.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[32].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 55.895113265484724
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[32].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 56.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[33].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 67.50239659217237
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[33].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 67.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[34].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 83.26676143443336
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[34].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 83.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[35].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 19.472781430221602
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[35].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 19.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[36].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 14.739430172048973
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[36].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 14.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[37].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 19.785134029890727
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[37].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 19.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[38].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 25.992569373031873
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[38].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 27.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[39].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 30.409860132875494
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[39].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 31.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[3].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 63.85661806152063
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[3].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 64.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[40].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 62.68523030320624
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[40].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 62.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[41].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 88.9956489560866
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[41].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 89.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[42].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 116.78545795879653
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[42].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 117.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[43].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 89.86381532842918
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[43].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 90.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[44].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 46.16166822647746
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[44].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 46.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[45].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 55.71950178080711
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[45].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 56.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[46].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 62.08101424262131
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[46].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 62.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[47].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 68.89276187252416
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[47].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 69.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[48].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 82.97188573483061
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[48].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 83.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[49].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 61.270926254205875
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[49].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 61.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[4].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 64.30559142733819
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[4].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 64.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[50].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 44.4401278043191
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[50].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 44.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[51].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 31.87172147281813
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[51].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 31.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[52].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 40.286617726251976
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[52].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 41.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[53].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 41.986211504835396
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[53].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 43.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[54].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 61.78290525027844
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[54].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 61.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[55].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 88.81577361910476
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[55].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 89.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[5].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 69.5347990242656
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[5].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 70.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[6].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 83.33163819676004
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[6].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 83.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[7].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 155.75336060338776
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[7].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 156.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[8].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 77.24544876417876
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[8].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 77.0
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[9].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 43.42821128811305
+    },
+    "payload/validate.noise-aware-logging-lpf.figs10_comparison[9].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 42.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[0].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 12.887026126244937
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[0].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 13.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[10].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 28.41021653108856
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[11].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 26.39467732741213
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[12].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 65.03494230139792
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[13].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 88.80476579148032
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[14].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 10.701031524005536
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[15].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 11.595430982886898
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[16].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 21.703104741203525
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[17].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 29.093126573006643
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[18].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 26.378172109240978
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[19].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 64.32642308445853
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[1].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 14.888578480801375
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[1].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 15.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[20].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 87.92823062978474
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[21].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 10.621511827339303
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[22].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 11.50403337239738
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[23].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 20.402838477008828
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[24].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 30.168342868489447
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[25].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 29.729826759235785
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[26].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 52.40125004648576
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[27].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 87.55224619880636
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[28].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 12.296767194314683
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[28].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 12.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[29].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 13.483301643375249
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[29].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 13.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[2].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 22.384038004668753
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[2].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 22.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[30].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 18.054407354434574
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[30].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 18.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[31].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 21.514879481164463
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[31].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 22.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[32].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 26.046245352990773
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[32].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 26.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[33].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 65.4183755091992
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[33].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 65.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[34].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 88.94659590509721
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[34].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 89.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[35].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 12.063315287355135
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[36].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 14.755994259611008
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[37].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 23.654488929262435
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[38].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 28.278993104362264
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[39].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 27.39711695635547
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[3].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 33.32252947790114
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[3].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 33.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[40].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 66.46344056926331
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[41].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 88.34068933911797
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[4].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 37.108499904419354
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[4].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 37.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[5].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 64.93331300108291
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[5].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 65.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[6].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 84.29309012747947
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[6].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 84.0
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[7].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 11.054987880380834
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[8].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 12.092980153282626
+    },
+    "payload/validate.noise-aware-logging-lpf.heatmap_comparison[9].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 21.935482354735694
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[0].convergence_failure_rate_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.0
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[0].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 53.405698884024105
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[0].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 54.0
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[1].convergence_failure_rate_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 100.0
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[2].convergence_failure_rate_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 70.0
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[2].survivorship_biased_median_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 22.536748971591457
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[3].convergence_failure_rate_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.0
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[3].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 26.046245352990773
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[3].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 25.9
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[4].convergence_failure_rate_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.0
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[4].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 30.409860132875494
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[4].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 30.8
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[5].convergence_failure_rate_percent": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.0
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[5].dashboard_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 41.986211504835396
+    },
+    "payload/validate.noise-aware-logging-lpf.lpf_sweep[5].paper_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 43.0
+    },
+    "payload/validate.noise-aware-logging-lpf.main_effect_comparison[0].dashboard_median_spread_pp": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 72.47010137079617
+    },
+    "payload/validate.noise-aware-logging-lpf.main_effect_comparison[0].paper_median_spread_pp": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 74.0
+    },
+    "payload/validate.noise-aware-logging-lpf.main_effect_comparison[1].dashboard_median_spread_pp": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 30.78709210220351
+    },
+    "payload/validate.noise-aware-logging-lpf.main_effect_comparison[1].paper_median_spread_pp": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 30.0
+    },
+    "payload/validate.noise-aware-logging-lpf.main_effect_comparison[2].dashboard_median_spread_pp": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 28.701408676733458
+    },
+    "payload/validate.noise-aware-logging-lpf.main_effect_comparison[2].paper_median_spread_pp": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 29.0
+    },
+    "payload/validate.noise-aware-logging-lpf.main_effect_comparison[3].dashboard_median_spread_pp": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 9.294061904568146
+    },
+    "payload/validate.noise-aware-logging-lpf.main_effect_comparison[3].paper_median_spread_pp": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 9.0
+    },
+    "payload/validate.noise-aware-logging-lpf.metrics.best_Figure5_SN_LPF100_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 14.739430172048973
+    },
+    "payload/validate.noise-aware-logging-lpf.metrics.best_SN_LPF50_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 12.296767194314683
+    },
+    "payload/validate.noise-aware-logging-lpf.metrics.expected_low_cutoff_failure_rows": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 3500.0
+    },
+    "payload/validate.noise-aware-logging-lpf.plant.zeta_cl_min": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.151
+    },
+    "payload/validate.noise-aware-logging-lpf.six_excitation_failure_rates.10": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 100.0
+    },
+    "payload/validate.noise-aware-logging-lpf.six_excitation_failure_rates.100": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.0
+    },
+    "payload/validate.noise-aware-logging-lpf.six_excitation_failure_rates.20": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 66.66666666666667
+    },
+    "payload/validate.noise-aware-logging-lpf.six_excitation_failure_rates.200": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.0
+    },
+    "payload/validate.noise-aware-logging-lpf.six_excitation_failure_rates.50": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.0
+    },
+    "payload/validate.noise-aware-logging-lpf.six_excitation_failure_rates.none": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.0
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[0].dashboard_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.00412534937092546
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[1].dashboard_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.6593591414110663
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[1].paper_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.68
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[2].dashboard_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 3.7783959225054007
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[2].paper_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 3.83
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[3].dashboard_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 8.04560700542919
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[3].paper_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 8.05
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[4].dashboard_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 22.678546716039968
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[4].paper_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 22.7
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[5].dashboard_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 58.22860315949363
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[5].paper_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 58.24
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[6].dashboard_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 78.30754420296677
+    },
+    "payload/validate.noise-aware-logging-lpf.tlog_sweep[6].paper_NF_no_LPF_MARE_theta": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 81.06
+    },
+    "payload/validate.noise-aware-logging-lpf/__digest": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 0.0,
+      "source": "cached",
+      "tolerance_reason": "structural fingerprint (digest/leaf_count) must match exactly",
+      "value": 950453840135635.0
+    },
+    "payload/validate.noise-aware-logging-lpf/__leaf_count": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 0.0,
+      "source": "cached",
+      "tolerance_reason": "structural fingerprint (digest/leaf_count) must match exactly",
+      "value": 12120.0
+    },
+    "payload/validate.retuning.diagnostic_runs[0].cs_bo_median": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.11431220890269439
+    },
+    "payload/validate.retuning.diagnostic_runs[0].hgs_only_median": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.21022800783822526
+    },
+    "payload/validate.retuning.diagnostic_runs[1].cs_bo_median": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 2.874292133633429
+    },
+    "payload/validate.retuning.diagnostic_runs[1].hgs_only_median": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 2.885946912703716
+    },
+    "payload/validate.retuning.diagnostic_runs[2].cs_bo_median": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.43507896701088833
+    },
+    "payload/validate.retuning.diagnostic_runs[2].hgs_only_median": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 1e-09,
+      "source": "cached",
+      "value": 0.4378021227563079
+    },
+    "payload/validate.retuning/__digest": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 0.0,
+      "source": "cached",
+      "tolerance_reason": "structural fingerprint (digest/leaf_count) must match exactly",
+      "value": 4489480943773820.0
+    },
+    "payload/validate.retuning/__leaf_count": {
+      "provenance": "checks.probes.payload_summary_probes",
+      "rel_tol": 0.0,
+      "source": "cached",
+      "tolerance_reason": "structural fingerprint (digest/leaf_count) must match exactly",
+      "value": 520.0
+    }
+  },
+  "python": "3.11.13"
+}

@@ -1,0 +1,31 @@
+{
+  "atlas_version": "gain_atlas_v5",
+  "auto_ti_s": 49.82209189836494,
+  "coarse": {
+    "S": 0.817082941532135,
+    "evaluations": 100,
+    "kp_on_bound": null,
+    "kp_star": 35.568933044900625,
+    "search": "10x10 log grid",
+    "seconds": 0.07753825187683105,
+    "ti_s": 43.897382266456034,
+    "ti_scale": 0.881082680269727,
+    "ti_scale_on_bound": null
+  },
+  "eval_model": "stepseq-clean-true-clamp",
+  "full": {
+    "S": 0.6898913383483887,
+    "evaluations": 2809,
+    "kp_on_bound": null,
+    "kp_star": 50.960362091192415,
+    "search": "hierarchical_grid_search (paper budget)",
+    "seconds": 1.8288090229034424,
+    "ti_s": 504.24780234848015,
+    "ti_scale": 10.120968091366484,
+    "ti_scale_on_bound": null
+  },
+  "kind": "reference",
+  "line_speed_m_s": 0.1,
+  "plant_id": "P09",
+  "produced_at": "2026-09-11T05:03:27.467733+00:00"
+}

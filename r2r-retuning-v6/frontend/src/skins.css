@@ -1,0 +1,198 @@
+/* ------------------------------------------------------------------ */
+/* Skins: alternative looks for the same markup.                       */
+/*                                                                     */
+/* Selected by `data-skin` on <html>, set from `?skin=` or the picker   */
+/* in the top bar and remembered in localStorage. No skin changes a     */
+/* number, a control or the layout -- only colour, weight and texture,  */
+/* so switching is safe and reversible.                                 */
+/*                                                                     */
+/*   industrial  the machine-panel look (no overrides here)             */
+/*   slate       one dark surface end to end, flat, no bezel (default)  */
+/*   paper       light instrument report: white cards, ink, thin rules  */
+/*   graphite    dark and monochrome, one amber accent for live values  */
+/* ------------------------------------------------------------------ */
+
+/* =================== SLATE ======================================== */
+[data-skin="slate"] {
+  --sk-bg: #10161a; --sk-panel: #171f25; --sk-panel-2: #1e282f; --sk-line: #2b3942;
+  --sk-text: #e6edf2; --sk-dim: #8ea0ad; --sk-accent: #4aa8c7;
+}
+[data-skin="slate"] body,
+[data-skin="slate"] :root { background: var(--sk-bg); color: var(--sk-text); }
+[data-skin="slate"] .sidebar { background: #0c1216; color: var(--sk-text); border-right: 1px solid var(--sk-line); }
+[data-skin="slate"] .brand-lockup span { color: var(--sk-dim); }
+[data-skin="slate"] .page-nav button { color: var(--sk-dim); }
+[data-skin="slate"] .page-nav button:hover,
+[data-skin="slate"] .page-nav button.active { background: var(--sk-panel-2); color: var(--sk-text); }
+[data-skin="slate"] .workspace { background: var(--sk-bg); }
+[data-skin="slate"] .topbar h1, [data-skin="slate"] .title-block { color: var(--sk-text); }
+[data-skin="slate"] .panel, [data-skin="slate"] .chart-frame {
+  background: var(--sk-panel); border-color: var(--sk-line); color: var(--sk-text); box-shadow: none; }
+[data-skin="slate"] .field, [data-skin="slate"] .hint, [data-skin="slate"] .plant-note { color: var(--sk-dim); }
+[data-skin="slate"] .api-controls input,
+[data-skin="slate"] .field input, [data-skin="slate"] .field select {
+  background: var(--sk-panel-2); border-color: var(--sk-line); color: var(--sk-text); }
+[data-skin="slate"] .data-table th { background: var(--sk-panel-2); color: var(--sk-dim); }
+[data-skin="slate"] .data-table td, [data-skin="slate"] .data-table th { border-color: var(--sk-line); }
+[data-skin="slate"] .subnav button { background: var(--sk-panel); color: var(--sk-dim); border-color: var(--sk-line); }
+[data-skin="slate"] .subnav button.active { background: var(--sk-accent); color: #04131a; border-color: var(--sk-accent); }
+/* the machine panel loses its bezel and joins the page */
+[data-skin="slate"] .hmi-bezel { background: transparent; box-shadow: none; padding: 0; gap: 12px; }
+[data-skin="slate"] .hmi { --hmi-panel: var(--sk-panel); --hmi-panel-2: var(--sk-panel-2);
+  --hmi-line: var(--sk-line); --hmi-text: var(--sk-text); --hmi-dim: var(--sk-dim);
+  --hmi-lcd: #0b1216; --hmi-pv: #dfe8ee; --hmi-out: #6fd3a8; --hmi-canvas: #16202a; --hmi-ink: #b9c8d2;
+  --hmi-u: #e8933f; --hmi-omega: #7cc4ff; --hmi-tension: #f0867f; }
+[data-skin="slate"] .hmi-lcd { box-shadow: none; border: 1px solid var(--sk-line); }
+[data-skin="slate"] .hmi-machine-bg { fill: #16202a; }
+[data-skin="slate"] .hmi-frame rect, [data-skin="slate"] .hmi-frame polyline, [data-skin="slate"] .hmi-frame line {
+  stroke: #46606f; }
+[data-skin="slate"] .hmi-frame .hmi-base { fill: #1d2b35; }
+[data-skin="slate"] .hmi-web-film { stroke: #cfe0ea; }
+[data-skin="slate"] .hmi-web-edge { stroke: #24323c; }
+[data-skin="slate"] .hmi-web-marks { stroke: #7d93a1; }
+[data-skin="slate"] .hmi-reel-wound { fill: #22323d; stroke: #46606f; }
+[data-skin="slate"] .hmi-roll-shell { fill: #35434d; stroke: #5e7382; }
+[data-skin="slate"] .hmi-roll-hub, [data-skin="slate"] .hmi-roll-bolt { fill: #c3d3dd; }
+[data-skin="slate"] .hmi-roll-mark, [data-skin="slate"] .hmi-spoke { stroke: #c3d3dd; }
+[data-skin="slate"] .hmi-reel-core { fill: #4a5a66; stroke: #7d93a1; }
+[data-skin="slate"] .hmi-tag { fill: var(--sk-accent); stroke: none; }
+[data-skin="slate"] .hmi-tag-text { fill: #04131a; }
+[data-skin="slate"] .hmi-btn { box-shadow: none; border-radius: 4px; }
+[data-skin="slate"] .hmi-btn.tone-green { background: var(--sk-accent); color: #04131a; }
+[data-skin="slate"] .hmi-btn.tone-amber { background: #2f3f49; color: var(--sk-text); }
+
+/* =================== PAPER ======================================== */
+[data-skin="paper"] {
+  --sk-bg: #f4f4f1; --sk-panel: #ffffff; --sk-line: #d8d8d2; --sk-text: #14181a;
+  --sk-dim: #6b7377; --sk-accent: #1f5f91;
+}
+[data-skin="paper"] body { background: var(--sk-bg); }
+[data-skin="paper"] .sidebar { background: #ffffff; color: var(--sk-text); border-right: 1px solid var(--sk-line); }
+[data-skin="paper"] .brand-lockup span { color: var(--sk-dim); }
+[data-skin="paper"] .page-nav button { color: var(--sk-dim); }
+[data-skin="paper"] .page-nav button:hover,
+[data-skin="paper"] .page-nav button.active { background: #eef2f5; color: var(--sk-accent); }
+[data-skin="paper"] .workspace { background: var(--sk-bg); }
+[data-skin="paper"] .panel { background: var(--sk-panel); border-color: var(--sk-line); box-shadow: none; }
+[data-skin="paper"] .hmi-bezel { background: var(--sk-panel); border: 1px solid var(--sk-line);
+  box-shadow: none; padding: 14px; }
+[data-skin="paper"] .hmi { --hmi-panel: #fbfbfa; --hmi-panel-2: #f1f2f0; --hmi-line: var(--sk-line);
+  --hmi-text: var(--sk-text); --hmi-dim: var(--sk-dim); --hmi-lcd: #f7f8f7; --hmi-pv: #14181a;
+  --hmi-sv: #4a5256; --hmi-out: #146b45; --hmi-twin: #6b4ac0; --hmi-canvas: #ffffff; --hmi-ink: #2b2f31;
+  /* darker spans: the dark-skin yellow/green/blue wash out on white */
+  --hmi-ch1: #a86a10; --hmi-ch2: #1c7a4d; --hmi-ch3: #1f5f9e;
+  --hmi-u: #c2410c; --hmi-omega: #1f5f9e; --hmi-tension: #a21c48; }
+[data-skin="paper"] .hmi-lcd { box-shadow: none; border: 1px solid var(--sk-line); font-weight: 600; }
+[data-skin="paper"] .hmi-tab.is-active { color: var(--sk-accent); border-bottom-color: var(--sk-accent); }
+[data-skin="paper"] .hmi-col-title, [data-skin="paper"] .flow-n { color: var(--sk-accent); }
+[data-skin="paper"] .hmi-machine-bg { fill: #ffffff; }
+[data-skin="paper"] .hmi-frame rect, [data-skin="paper"] .hmi-frame polyline, [data-skin="paper"] .hmi-frame line {
+  stroke: #9aa2a6; }
+[data-skin="paper"] .hmi-frame .hmi-base { fill: #eceeef; }
+[data-skin="paper"] .hmi-web-film { stroke: #ffffff; }
+[data-skin="paper"] .hmi-web-edge { stroke: #2b2f31; }
+[data-skin="paper"] .hmi-web-marks { stroke: #8d9498; }
+[data-skin="paper"] .hmi-reel-wound { fill: #f2f3f2; stroke: #9aa2a6; }
+[data-skin="paper"] .hmi-roll-shell { fill: #e9ebec; stroke: #7e878c; }
+[data-skin="paper"] .hmi-reel-core { fill: #cfd4d6; stroke: #7e878c; }
+[data-skin="paper"] .hmi-trend-bg { fill: #fbfbfa; }
+[data-skin="paper"] .hmi-trend-grid { stroke: #e3e5e4; }
+[data-skin="paper"] .hmi-trend-tick, [data-skin="paper"] .hmi-trend-legend { fill: var(--sk-dim); }
+[data-skin="paper"] .hmi-spark { background: #fbfbfa; border: 1px solid var(--sk-line); }
+[data-skin="paper"] .hmi-spark-sv { stroke: #9aa2a6; }
+[data-skin="paper"] .hmi-spark-pv { stroke: #b9791a; }
+[data-skin="paper"] .hmi-chip-bg { fill: #ffffff; stroke: #c9ced0; }
+[data-skin="paper"] .hmi-chip-label { fill: #6b7377; }
+[data-skin="paper"] .hmi-chip-value { fill: #14181a; }
+[data-skin="paper"] .hmi-chip-twin { fill: #6b4ac0; }
+[data-skin="paper"] .hmi-tag { fill: #eef2f5; stroke: #9aa2a6; }
+[data-skin="paper"] .hmi-tag-text { fill: #14181a; }
+[data-skin="paper"] .hmi-meter-track { background: linear-gradient(90deg, #e9c9c4, #e6e8e7 35%, #cfe6d6 50%, #e6e8e7 65%, #e9c9c4); }
+[data-skin="paper"] .hmi-btn { box-shadow: none; border-radius: 4px; }
+[data-skin="paper"] .hmi-btn.tone-green { background: #1c7a44; }
+[data-skin="paper"] .hmi-btn.tone-amber { background: #b06a12; }
+[data-skin="paper"] .hmi-btn.tone-grey { background: #6b7377; }
+[data-skin="paper"] .hmi-lamp i { background: #d3d7d9; box-shadow: none; }
+[data-skin="paper"] .hmi-alarm { background: #f4f6f7; }
+
+/* =================== GRAPHITE ===================================== */
+[data-skin="graphite"] {
+  --sk-bg: #1a1a19; --sk-panel: #242423; --sk-panel-2: #2d2d2b; --sk-line: #3a3a37;
+  --sk-text: #eceae4; --sk-dim: #9a988f; --sk-accent: #e0922f;
+}
+[data-skin="graphite"] body { background: var(--sk-bg); color: var(--sk-text); }
+[data-skin="graphite"] .sidebar { background: #131312; color: var(--sk-text); border-right: 1px solid var(--sk-line); }
+[data-skin="graphite"] .brand-lockup span { color: var(--sk-dim); }
+[data-skin="graphite"] .page-nav button { color: var(--sk-dim); }
+[data-skin="graphite"] .page-nav button:hover,
+[data-skin="graphite"] .page-nav button.active { background: var(--sk-panel-2); color: var(--sk-accent); }
+[data-skin="graphite"] .workspace { background: var(--sk-bg); }
+[data-skin="graphite"] .panel, [data-skin="graphite"] .chart-frame {
+  background: var(--sk-panel); border-color: var(--sk-line); color: var(--sk-text); box-shadow: none; }
+[data-skin="graphite"] .field, [data-skin="graphite"] .hint, [data-skin="graphite"] .plant-note { color: var(--sk-dim); }
+[data-skin="graphite"] .api-controls input,
+[data-skin="graphite"] .field input, [data-skin="graphite"] .field select {
+  background: var(--sk-panel-2); border-color: var(--sk-line); color: var(--sk-text); }
+[data-skin="graphite"] .data-table th { background: var(--sk-panel-2); color: var(--sk-dim); }
+[data-skin="graphite"] .data-table td, [data-skin="graphite"] .data-table th { border-color: var(--sk-line); }
+[data-skin="graphite"] .hmi-bezel { background: var(--sk-panel); box-shadow: none; }
+[data-skin="graphite"] .hmi { --hmi-bezel: var(--sk-panel); --hmi-panel: var(--sk-panel-2);
+  --hmi-panel-2: #363634; --hmi-line: var(--sk-line); --hmi-text: var(--sk-text); --hmi-dim: var(--sk-dim);
+  --hmi-lcd: #141413; --hmi-pv: var(--sk-accent); --hmi-sv: #d8d5cd; --hmi-out: var(--sk-accent);
+  --hmi-twin: #b7b2a6; --hmi-canvas: #201f1d; --hmi-ink: #b5b0a4;
+  /* mono, but the three spans still have to be told apart: amber, bone, steel */
+  --hmi-ch1: #e0922f; --hmi-ch2: #ece7d9; --hmi-ch3: #7fa9c4;
+  --hmi-u: #e0922f; --hmi-omega: #7fa9c4; --hmi-tension: #d9a06a; }
+[data-skin="graphite"] .hmi-machine-bg { fill: #201f1d; }
+[data-skin="graphite"] .hmi-frame rect, [data-skin="graphite"] .hmi-frame polyline, [data-skin="graphite"] .hmi-frame line { stroke: #5b574d; }
+[data-skin="graphite"] .hmi-frame .hmi-base { fill: #2a2925; }
+[data-skin="graphite"] .hmi-web-film { stroke: #ded9cd; }
+[data-skin="graphite"] .hmi-web-edge { stroke: #2a2925; }
+[data-skin="graphite"] .hmi-web-marks { stroke: #8d887b; }
+[data-skin="graphite"] .hmi-reel-wound { fill: #2e2c27; stroke: #5b574d; }
+[data-skin="graphite"] .hmi-roll-shell { fill: #44423c; stroke: #6e6a5e; }
+[data-skin="graphite"] .hmi-reel-core { fill: #57544c; stroke: #8d887b; }
+[data-skin="graphite"] .hmi-roll-hub, [data-skin="graphite"] .hmi-roll-bolt { fill: #cfc9bb; }
+[data-skin="graphite"] .hmi-roll-mark, [data-skin="graphite"] .hmi-spoke { stroke: #cfc9bb; }
+[data-skin="graphite"] .hmi-tag { fill: var(--sk-accent); stroke: none; }
+[data-skin="graphite"] .hmi-tag-text { fill: #1a1a19; }
+/* Only the sparklines go amber. The trend keeps one colour per span
+   (--hmi-ch1..3 above), and so does its T1/T2/T3 legend. */
+[data-skin="graphite"] .hmi-spark-pv { stroke: var(--sk-accent); }
+[data-skin="graphite"] .hmi-trend-legend, [data-skin="graphite"] .hmi-trend-tick { fill: var(--sk-dim); }
+[data-skin="graphite"] .hmi-btn { box-shadow: none; border-radius: 4px; }
+[data-skin="graphite"] .hmi-btn.tone-green { background: var(--sk-accent); color: #1a1a19; }
+[data-skin="graphite"] .hmi-btn.tone-amber { background: #4a4740; color: var(--sk-text); }
+[data-skin="graphite"] .flow-n, [data-skin="graphite"] .hmi-col-title { color: var(--sk-accent); }
+[data-skin="graphite"] .hmi-tab.is-active { color: var(--sk-accent); border-bottom-color: var(--sk-accent); }
+
+/* the picker itself */
+.skin-picker { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; opacity: 0.85; }
+.skin-picker select { height: 34px; border-radius: 7px; padding: 0 8px; }
+
+/* --- leftovers the three skins must also carry: the station tag and the
+       trend/sparkline surfaces are hard-coded for the industrial look --- */
+[data-skin="slate"] .hmi-station-tag { background: var(--sk-accent); color: #04131a; }
+[data-skin="slate"] .hmi-trend-bg { fill: #0e161b; }
+[data-skin="slate"] .hmi-trend-grid { stroke: #223038; }
+[data-skin="slate"] .hmi-trend { background: #0b1216; }
+[data-skin="slate"] .hmi-spark { background: #0b1216; }
+[data-skin="slate"] .hmi-meter-track {
+  background: linear-gradient(90deg, #5c3a3a, #2b3942 35%, #2f5f4a 50%, #2b3942 65%, #5c3a3a); }
+
+[data-skin="paper"] .hmi-station-tag { background: #eef2f5; color: var(--sk-accent); border: 1px solid #c9d4dc; }
+[data-skin="paper"] .hmi-trend { background: #fbfbfa; border: 1px solid var(--sk-line); }
+[data-skin="paper"] .hmi-trend-cursor { stroke: #c2410c; }
+[data-skin="paper"] .hmi-alarm-text { color: var(--sk-dim); }
+[data-skin="paper"] .hmi-alarm.is-active .hmi-alarm-text { color: #b45309; }
+[data-skin="paper"] .flow-verdict.is-bad { background: #fdecea; color: #a12a20; }
+[data-skin="paper"] .flow-verdict.is-ok { background: #e8f6ed; color: #146b45; }
+
+[data-skin="graphite"] .hmi-station-tag { background: var(--sk-accent); color: #1a1a19; }
+[data-skin="graphite"] .hmi-trend-bg { fill: #161614; }
+[data-skin="graphite"] .hmi-trend-grid { stroke: #2f2e2a; }
+[data-skin="graphite"] .hmi-trend { background: #141413; }
+[data-skin="graphite"] .hmi-spark { background: #141413; }
+[data-skin="graphite"] .hmi-spark-sv, [data-skin="graphite"] .hmi-trend-sv { stroke: #8d887b; }
+[data-skin="graphite"] .hmi-meter-track {
+  background: linear-gradient(90deg, #5a4038, #3a3a37 35%, #4a5240 50%, #3a3a37 65%, #5a4038); }

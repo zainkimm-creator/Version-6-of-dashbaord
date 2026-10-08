@@ -1,0 +1,1125 @@
+{
+  "section": "4.2",
+  "tier": 1,
+  "scope": "reporting layer only; no optimizer run",
+  "figure_package": "paper1_v5_figure_package/figure_package_v5",
+  "status": "PASS",
+  "passed": 100,
+  "failed": 0,
+  "unverifiable": 6,
+  "method_stats": {
+    "CS-BO(30)": {
+      "n": 180,
+      "mean": 0.6869107541774572,
+      "median": 0.4072134814224472,
+      "P5": 0.10871916209541227,
+      "P95": 2.6336613620132563,
+      "min": 0.0912611394424011,
+      "max": 3.12116914713051
+    },
+    "WS-BO(30)": {
+      "n": 180,
+      "mean": 0.6887920826713799,
+      "median": 0.40747471115575007,
+      "P5": 0.10962661432504786,
+      "P95": 2.64180254073386,
+      "min": 0.0916822498259728,
+      "max": 3.128939186979965
+    },
+    "HGS-only": {
+      "n": 60,
+      "mean": 0.6951671335547137,
+      "median": 0.35713582858163384,
+      "P5": 0.10887623615758343,
+      "P95": 2.68848605630303,
+      "min": 0.0910975669528315,
+      "max": 3.425655203953304
+    },
+    "HGS+BO(5)": {
+      "n": 60,
+      "mean": 0.6916364244661828,
+      "median": 0.3571358285816328,
+      "P5": 0.10887623615758343,
+      "P95": 2.6884860563030375,
+      "min": 0.0910975669528314,
+      "max": 3.215050065927266
+    },
+    "HGS+BO(10)": {
+      "n": 60,
+      "mean": 0.6900619872302491,
+      "median": 0.3571358285816328,
+      "P5": 0.10881715110337835,
+      "P95": 2.6884860563030375,
+      "min": 0.0910975669528314,
+      "max": 3.120978293845906
+    }
+  },
+  "checks": [
+    {
+      "group": "A. run counts",
+      "check": "total pooled runs",
+      "expected": 540,
+      "actual": 540,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": "(2 stochastic x 3 seeds + 3 deterministic x 1) x 60"
+    },
+    {
+      "group": "A. run counts",
+      "check": "n [CS-BO(30)]",
+      "expected": 180,
+      "actual": 180,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "A. run counts",
+      "check": "n [WS-BO(30)]",
+      "expected": 180,
+      "actual": 180,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "A. run counts",
+      "check": "n [HGS-only]",
+      "expected": 60,
+      "actual": 60,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "A. run counts",
+      "check": "n [HGS+BO(5)]",
+      "expected": 60,
+      "actual": 60,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "A. run counts",
+      "check": "n [HGS+BO(10)]",
+      "expected": 60,
+      "actual": 60,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "mean [CS-BO(30)]",
+      "expected": 0.6869107541774574,
+      "actual": 0.6869107541774572,
+      "delta": "-2.22045e-16",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "median [CS-BO(30)]",
+      "expected": 0.4072134814224472,
+      "actual": 0.4072134814224472,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "P5 [CS-BO(30)]",
+      "expected": 0.10871916209541227,
+      "actual": 0.10871916209541227,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "P95 [CS-BO(30)]",
+      "expected": 2.6336613620132563,
+      "actual": 2.6336613620132563,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "mean [WS-BO(30)]",
+      "expected": 0.6887920826713798,
+      "actual": 0.6887920826713799,
+      "delta": "1.11022e-16",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "median [WS-BO(30)]",
+      "expected": 0.40747471115575007,
+      "actual": 0.40747471115575007,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "P5 [WS-BO(30)]",
+      "expected": 0.10962661432504786,
+      "actual": 0.10962661432504786,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "P95 [WS-BO(30)]",
+      "expected": 2.64180254073386,
+      "actual": 2.64180254073386,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "mean [HGS-only]",
+      "expected": 0.6951671335547136,
+      "actual": 0.6951671335547137,
+      "delta": "1.11022e-16",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "median [HGS-only]",
+      "expected": 0.35713582858163384,
+      "actual": 0.35713582858163384,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "P5 [HGS-only]",
+      "expected": 0.10887623615758343,
+      "actual": 0.10887623615758343,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "P95 [HGS-only]",
+      "expected": 2.68848605630303,
+      "actual": 2.68848605630303,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "mean [HGS+BO(5)]",
+      "expected": 0.6916364244661828,
+      "actual": 0.6916364244661828,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "median [HGS+BO(5)]",
+      "expected": 0.3571358285816328,
+      "actual": 0.3571358285816328,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "P5 [HGS+BO(5)]",
+      "expected": 0.10887623615758343,
+      "actual": 0.10887623615758343,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "P95 [HGS+BO(5)]",
+      "expected": 2.6884860563030375,
+      "actual": 2.6884860563030375,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "mean [HGS+BO(10)]",
+      "expected": 0.6900619872302491,
+      "actual": 0.6900619872302491,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "median [HGS+BO(10)]",
+      "expected": 0.3571358285816328,
+      "actual": 0.3571358285816328,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "P5 [HGS+BO(10)]",
+      "expected": 0.10881715110337835,
+      "actual": 0.10881715110337835,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "B. recomputed vs package summary",
+      "check": "P95 [HGS+BO(10)]",
+      "expected": 2.6884860563030375,
+      "actual": 2.6884860563030375,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "C. fig07 vs figS07 cross-check",
+      "check": "median [CS-BO(30)]",
+      "expected": 0.4072134814224472,
+      "actual": 0.4072134814224472,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": "independent extractors, same campaign"
+    },
+    {
+      "group": "C. fig07 vs figS07 cross-check",
+      "check": "real_evals [CS-BO(30)]",
+      "expected": 30,
+      "actual": 30.0,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "C. fig07 vs figS07 cross-check",
+      "check": "median [WS-BO(30)]",
+      "expected": 0.40747471115575007,
+      "actual": 0.40747471115575007,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": "independent extractors, same campaign"
+    },
+    {
+      "group": "C. fig07 vs figS07 cross-check",
+      "check": "real_evals [WS-BO(30)]",
+      "expected": 30,
+      "actual": 30.0,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "C. fig07 vs figS07 cross-check",
+      "check": "median [HGS-only]",
+      "expected": 0.35713582858163384,
+      "actual": 0.35713582858163384,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": "independent extractors, same campaign"
+    },
+    {
+      "group": "C. fig07 vs figS07 cross-check",
+      "check": "real_evals [HGS-only]",
+      "expected": 0,
+      "actual": 0.0,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "C. fig07 vs figS07 cross-check",
+      "check": "median [HGS+BO(5)]",
+      "expected": 0.3571358285816328,
+      "actual": 0.3571358285816328,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": "independent extractors, same campaign"
+    },
+    {
+      "group": "C. fig07 vs figS07 cross-check",
+      "check": "real_evals [HGS+BO(5)]",
+      "expected": 5,
+      "actual": 5.0,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "C. fig07 vs figS07 cross-check",
+      "check": "median [HGS+BO(10)]",
+      "expected": 0.3571358285816328,
+      "actual": 0.3571358285816328,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": "independent extractors, same campaign"
+    },
+    {
+      "group": "C. fig07 vs figS07 cross-check",
+      "check": "real_evals [HGS+BO(10)]",
+      "expected": 10,
+      "actual": 10.0,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "mean [CS-BO(30)]",
+      "expected": 0.687,
+      "actual": 0.687,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "median [CS-BO(30)]",
+      "expected": 0.407,
+      "actual": 0.407,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "P5 [CS-BO(30)]",
+      "expected": 0.109,
+      "actual": 0.109,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "P95 [CS-BO(30)]",
+      "expected": 2.634,
+      "actual": 2.634,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "mean [WS-BO(30)]",
+      "expected": 0.689,
+      "actual": 0.689,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "median [WS-BO(30)]",
+      "expected": 0.407,
+      "actual": 0.407,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "P5 [WS-BO(30)]",
+      "expected": 0.11,
+      "actual": 0.11,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "P95 [WS-BO(30)]",
+      "expected": 2.642,
+      "actual": 2.642,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "mean [HGS-only]",
+      "expected": 0.695,
+      "actual": 0.695,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "median [HGS-only]",
+      "expected": 0.357,
+      "actual": 0.357,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "P5 [HGS-only]",
+      "expected": 0.109,
+      "actual": 0.109,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "P95 [HGS-only]",
+      "expected": 2.688,
+      "actual": 2.688,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "mean [HGS+BO(5)]",
+      "expected": 0.692,
+      "actual": 0.692,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "median [HGS+BO(5)]",
+      "expected": 0.357,
+      "actual": 0.357,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "P5 [HGS+BO(5)]",
+      "expected": 0.109,
+      "actual": 0.109,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "P95 [HGS+BO(5)]",
+      "expected": 2.688,
+      "actual": 2.688,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "mean [HGS+BO(10)]",
+      "expected": 0.69,
+      "actual": 0.69,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "median [HGS+BO(10)]",
+      "expected": 0.357,
+      "actual": 0.357,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "P5 [HGS+BO(10)]",
+      "expected": 0.109,
+      "actual": 0.109,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "D. recomputed vs paper Table S9",
+      "check": "P95 [HGS+BO(10)]",
+      "expected": 2.688,
+      "actual": 2.688,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "paper prints 3 dp"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "real_evals [CS-BO(30)]",
+      "expected": 30,
+      "actual": 30,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "n [CS-BO(30)]",
+      "expected": 180,
+      "actual": 180,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "median [CS-BO(30)]",
+      "expected": 0.407,
+      "actual": 0.407,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "mean [CS-BO(30)]",
+      "expected": 0.687,
+      "actual": 0.687,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "P5 [CS-BO(30)]",
+      "expected": 0.109,
+      "actual": 0.109,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "P95 [CS-BO(30)]",
+      "expected": 2.634,
+      "actual": 2.634,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "real_evals [WS-BO(30)]",
+      "expected": 30,
+      "actual": 30,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "n [WS-BO(30)]",
+      "expected": 180,
+      "actual": 180,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "median [WS-BO(30)]",
+      "expected": 0.407,
+      "actual": 0.407,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "mean [WS-BO(30)]",
+      "expected": 0.689,
+      "actual": 0.689,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "P5 [WS-BO(30)]",
+      "expected": 0.11,
+      "actual": 0.11,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "P95 [WS-BO(30)]",
+      "expected": 2.642,
+      "actual": 2.642,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "real_evals [HGS-only]",
+      "expected": 0,
+      "actual": 0,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "n [HGS-only]",
+      "expected": 60,
+      "actual": 60,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "median [HGS-only]",
+      "expected": 0.357,
+      "actual": 0.357,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "mean [HGS-only]",
+      "expected": 0.695,
+      "actual": 0.695,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "P5 [HGS-only]",
+      "expected": 0.109,
+      "actual": 0.109,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "P95 [HGS-only]",
+      "expected": 2.688,
+      "actual": 2.688,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "real_evals [HGS+BO(5)]",
+      "expected": 5,
+      "actual": 5,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "n [HGS+BO(5)]",
+      "expected": 60,
+      "actual": 60,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "median [HGS+BO(5)]",
+      "expected": 0.357,
+      "actual": 0.357,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "mean [HGS+BO(5)]",
+      "expected": 0.692,
+      "actual": 0.692,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "P5 [HGS+BO(5)]",
+      "expected": 0.109,
+      "actual": 0.109,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "P95 [HGS+BO(5)]",
+      "expected": 2.688,
+      "actual": 2.688,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "real_evals [HGS+BO(10)]",
+      "expected": 10,
+      "actual": 10,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "n [HGS+BO(10)]",
+      "expected": 60,
+      "actual": 60,
+      "delta": "0",
+      "tolerance": "0.0e+00",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "median [HGS+BO(10)]",
+      "expected": 0.357,
+      "actual": 0.357,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "mean [HGS+BO(10)]",
+      "expected": 0.69,
+      "actual": 0.69,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "P5 [HGS+BO(10)]",
+      "expected": 0.109,
+      "actual": 0.109,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "E. retuning_reference.json",
+      "check": "P95 [HGS+BO(10)]",
+      "expected": 2.688,
+      "actual": 2.688,
+      "delta": "0",
+      "tolerance": "5.0e-04",
+      "status": "PASS",
+      "note": "reference JSON vs recomputed raw data"
+    },
+    {
+      "group": "F. convergence claims (paper \u00a74.2)",
+      "check": "WS-BO(30) median at 5 real evals",
+      "expected": 10.7,
+      "actual": 10.709209362187849,
+      "delta": "0.00920936",
+      "tolerance": "5.3e-02",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "F. convergence claims (paper \u00a74.2)",
+      "check": "CS-BO(30) median at 5 real evals",
+      "expected": 0.878,
+      "actual": 0.8775736824690942,
+      "delta": "-0.000426318",
+      "tolerance": "4.4e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "F. convergence claims (paper \u00a74.2)",
+      "check": "CS-BO(30) median at 30 real evals",
+      "expected": 0.407,
+      "actual": 0.4072134814224472,
+      "delta": "0.000213481",
+      "tolerance": "2.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "F. convergence claims (paper \u00a74.2)",
+      "check": "WS-BO(30) median at 30 real evals",
+      "expected": 0.407,
+      "actual": 0.40747471115575007,
+      "delta": "0.000474711",
+      "tolerance": "2.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "F. convergence claims (paper \u00a74.2)",
+      "check": "HGS+BO(5) curve is flat (max-min)",
+      "expected": 0.0,
+      "actual": 0.0,
+      "delta": "0",
+      "tolerance": "1.0e-09",
+      "status": "PASS",
+      "note": "HGS transfer is deterministic"
+    },
+    {
+      "group": "F. convergence claims (paper \u00a74.2)",
+      "check": "HGS+BO(10) curve is flat (max-min)",
+      "expected": 0.0,
+      "actual": 0.0,
+      "delta": "0",
+      "tolerance": "1.0e-09",
+      "status": "PASS",
+      "note": "HGS transfer is deterministic"
+    },
+    {
+      "group": "G. headline claims",
+      "check": "HGS family shares one median (max-min)",
+      "expected": 0.0,
+      "actual": 1.0547118733938987e-15,
+      "delta": "1.05471e-15",
+      "tolerance": "1.0e-09",
+      "status": "PASS",
+      "note": "few-shot BO adds no median gain"
+    },
+    {
+      "group": "G. headline claims",
+      "check": "HGS-only median - CS-BO(30) median (no worse => <= 0)",
+      "expected": "<= 0",
+      "actual": -0.050077652840813336,
+      "delta": "",
+      "tolerance": "",
+      "status": "PASS",
+      "note": "0 real evals vs 30; negative means HGS-only is ahead"
+    },
+    {
+      "group": "G. headline claims",
+      "check": "real-eval reduction, HGS-only vs CS-BO(30) (%)",
+      "expected": 100.0,
+      "actual": 100.0,
+      "delta": "0",
+      "tolerance": "1.0e-09",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "G. headline claims",
+      "check": "v4.1 '83.3% (5 vs 30)' headline is retired",
+      "expected": "retired",
+      "actual": "The '83% fewer evaluations (5 vs 30)' headline is retired. H...",
+      "delta": "",
+      "tolerance": "",
+      "status": "PASS",
+      "note": "v5 routes HGS-only on parity, not superiority"
+    },
+    {
+      "group": "H. Fig. S7 reference lines",
+      "check": "P5_reference_line",
+      "expected": 0.108983,
+      "actual": 0.10898307996780107,
+      "delta": "7.99678e-08",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": "mean of the five per-method percentiles"
+    },
+    {
+      "group": "H. Fig. S7 reference lines",
+      "check": "P5_reference_line (package)",
+      "expected": 0.10898307996780106,
+      "actual": 0.10898307996780107,
+      "delta": "1.38778e-17",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "H. Fig. S7 reference lines",
+      "check": "P95_reference_line",
+      "expected": 2.668184,
+      "actual": 2.668184414331244,
+      "delta": "4.14331e-07",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": "mean of the five per-method percentiles"
+    },
+    {
+      "group": "H. Fig. S7 reference lines",
+      "check": "P95_reference_line (package)",
+      "expected": 2.668184414331244,
+      "actual": 2.668184414331244,
+      "delta": "0",
+      "tolerance": "1.0e-03",
+      "status": "PASS",
+      "note": ""
+    },
+    {
+      "group": "I. not reproducible from this package",
+      "check": "HGS-only vs CS-BO(30) win rate, anchored-5 (58%)",
+      "expected": null,
+      "actual": null,
+      "delta": "",
+      "tolerance": "",
+      "status": "UNVERIFIABLE",
+      "note": "needs plant/drift columns; not in the distributed data.csv"
+    },
+    {
+      "group": "I. not reproducible from this package",
+      "check": "HGS-only win rate under logging-only protocol (5%)",
+      "expected": null,
+      "actual": null,
+      "delta": "",
+      "tolerance": "",
+      "status": "UNVERIFIABLE",
+      "note": "logging-only campaign dump is not shipped"
+    },
+    {
+      "group": "I. not reproducible from this package",
+      "check": "HGS-only vs CS-BO on P189 (0%, 2.53 vs 2.49)",
+      "expected": null,
+      "actual": null,
+      "delta": "",
+      "tolerance": "",
+      "status": "UNVERIFIABLE",
+      "note": "per-plant identity not in the distributed data.csv"
+    },
+    {
+      "group": "I. not reproducible from this package",
+      "check": "HGS+BO(5) beats cold start in every paired run (100%)",
+      "expected": null,
+      "actual": null,
+      "delta": "",
+      "tolerance": "",
+      "status": "UNVERIFIABLE",
+      "note": "pairing requires plant/drift columns"
+    },
+    {
+      "group": "I. not reproducible from this package",
+      "check": "sim-to-real gap, field-matched (-1.16%) / logging-only (-16.2%)",
+      "expected": null,
+      "actual": null,
+      "delta": "",
+      "tolerance": "",
+      "status": "UNVERIFIABLE",
+      "note": "twin-vs-plant cost pairs are not shipped"
+    },
+    {
+      "group": "I. not reproducible from this package",
+      "check": "P189 re-identification (293% -> 64.6% error, cost doubles)",
+      "expected": null,
+      "actual": null,
+      "delta": "",
+      "tolerance": "",
+      "status": "UNVERIFIABLE",
+      "note": "supplement S10 per-plant dump is not shipped"
+    }
+  ],
+  "artifacts": {
+    "method_stats_csv": "reports/validation_summary/tier1_retuning_method_stats.csv",
+    "convergence_csv": "reports/validation_summary/tier1_retuning_convergence.csv",
+    "checks_csv": "reports/validation_summary/tier1_retuning_checks.csv",
+    "report_md": "reports/validation_summary/tier1_retuning_report.md"
+  }
+}

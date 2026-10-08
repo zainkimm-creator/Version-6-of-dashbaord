@@ -1,0 +1,19 @@
+{
+  "LPF_T_hz": 20.0,
+  "LPF_v_hz": 20.0,
+  "MARE_theta_pct": null,
+  "T_log_ms": 100.0,
+  "atlas_version": "gain_atlas_v5",
+  "converged": false,
+  "excitation": "ET1",
+  "failure": "ValueError: state must contain only finite values",
+  "kind": "twin",
+  "note": "simulation diverged under this protocol; no estimate (ValueError: state must contain only finite values)",
+  "plant_id": "P09",
+  "produced_at": "2026-09-14T08:23:10.824039+00:00",
+  "run_hash": "cd4cebef7b80f553",
+  "record_s": 30.0,
+  "pct_T": 0.003,
+  "pct_v": 0.003,
+  "record_s_labelled": "2026-09-14: added from run_hash; failure cells were written without it"
+}

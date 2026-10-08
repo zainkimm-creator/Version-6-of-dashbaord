@@ -1,0 +1,66 @@
+{
+  "atlas_version": "gain_atlas_v5",
+  "axes": {
+    "LPF_hz": [
+      "none",
+      "20",
+      "50",
+      "100",
+      "200"
+    ],
+    "T_log_ms": [
+      1.0,
+      2.0,
+      5.0,
+      10.0,
+      20.0,
+      50.0,
+      100.0
+    ],
+    "excitations": [
+      "ET1",
+      "ET3",
+      "ET6",
+      "ET3M",
+      "E_Toggle",
+      "EV1"
+    ],
+    "plants": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10"
+    ]
+  },
+  "eval_model": "stepseq-clean-true-clamp",
+  "fixed": {
+    "Kp_star_sysid": 100.0,
+    "drift": "none",
+    "pct_T": 0.003,
+    "pct_v": 0.003,
+    "seed": 0
+  },
+  "generated_at": "2026-09-14T08:26:11.208633+00:00",
+  "note": "The cost S is Eq. (12) measured on the paper's STEP-RESPONSE episode (eval_model above): three +20 % steps, one channel per 5 s episode, each held, edges at 1/6/11 s, clean evaluation loop, metrics from true tensions. Main text 2.5 calls these 'step-response metrics' and normalises OS and t_s per channel by that channel's own |dT_ref,i|; the 16 s E_Toggle record is the *identification* protocol, not this episode. See docs/paper-v5.1-vs-dashboard-2026-09-07.md. Twin and reference are searched at the same paper budget, so S_achieved/S_ref_full is the comparable ratio; S_achieved/S_ref_coarse is kept as a second reading. A protocol outside these axes has no cell and must read 'not precomputed' -- never interpolate between neighbouring cells. Every cell records ti_scale_on_bound and kp_on_bound, so a boundary-pinned optimum is never presented as a free one; the plant's own auto_Ti is carried alongside as the engineering value.",
+  "record_s_by_excitation": {
+    "ET1": 30.0,
+    "ET3": 17.0,
+    "ET3M": 51.0,
+    "ET6": 32.0,
+    "EV1": 12.0,
+    "E_Toggle": 16.0
+  },
+  "reference_cells": 10,
+  "searches": {
+    "reference_coarse": "10x10 log grid (100 evaluations)",
+    "reference_full": "hierarchical_grid_search, paper budget (2805 evaluations)",
+    "twin": "hierarchical_grid_search, paper budget (2805 evaluations)"
+  },
+  "twin_cells": 420
+}

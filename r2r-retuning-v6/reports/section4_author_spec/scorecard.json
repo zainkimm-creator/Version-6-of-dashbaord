@@ -1,0 +1,970 @@
+{
+  "campaign": "reports/section4_author_spec",
+  "cells_ok": 120,
+  "cells_failed": 0,
+  "config_hashes": [
+    "9202a65abc407933"
+  ],
+  "devices": [
+    "cuda:0"
+  ],
+  "verdict_counts": {
+    "REPRODUCED": 80,
+    "CLOSE": 9,
+    "DIFFERS": 6,
+    "no target": 0,
+    "not computed": 0
+  },
+  "lines": [
+    {
+      "section": "Table 3 / S9",
+      "item": "CS-BO(30) n",
+      "paper": 180,
+      "reply": null,
+      "ours": 180,
+      "verdict": "REPRODUCED",
+      "tolerance": "exact",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "CS-BO(30) median S",
+      "paper": 0.407,
+      "reply": null,
+      "ours": 0.4073606071323401,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "CS-BO(30) mean S",
+      "paper": 0.687,
+      "reply": null,
+      "ours": 0.6869642686661982,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "CS-BO(30) P5",
+      "paper": 0.109,
+      "reply": null,
+      "ours": 0.10879240477338076,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "CS-BO(30) P95",
+      "paper": 2.634,
+      "reply": null,
+      "ours": 2.632933268198771,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "WS-BO(30) n",
+      "paper": 180,
+      "reply": null,
+      "ours": 180,
+      "verdict": "REPRODUCED",
+      "tolerance": "exact",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "WS-BO(30) median S",
+      "paper": 0.407,
+      "reply": null,
+      "ours": 0.40792589708575144,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "WS-BO(30) mean S",
+      "paper": 0.689,
+      "reply": null,
+      "ours": 0.6878189553616394,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "WS-BO(30) P5",
+      "paper": 0.11,
+      "reply": null,
+      "ours": 0.10966882331957968,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "WS-BO(30) P95",
+      "paper": 2.642,
+      "reply": null,
+      "ours": 2.6302254718920026,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS-only n",
+      "paper": 60,
+      "reply": null,
+      "ours": 60,
+      "verdict": "REPRODUCED",
+      "tolerance": "exact",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS-only median S",
+      "paper": 0.357,
+      "reply": null,
+      "ours": 0.34772935299397567,
+      "verdict": "CLOSE",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS-only mean S",
+      "paper": 0.695,
+      "reply": null,
+      "ours": 0.6861338505400714,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS-only P5",
+      "paper": 0.109,
+      "reply": null,
+      "ours": 0.10867395226328648,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS-only P95",
+      "paper": 2.688,
+      "reply": null,
+      "ours": 2.6582019620112747,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS+BO(5) n",
+      "paper": 60,
+      "reply": null,
+      "ours": 60,
+      "verdict": "REPRODUCED",
+      "tolerance": "exact",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS+BO(5) median S",
+      "paper": 0.357,
+      "reply": null,
+      "ours": 0.34772935299397567,
+      "verdict": "CLOSE",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS+BO(5) mean S",
+      "paper": 0.692,
+      "reply": null,
+      "ours": 0.6861334870025185,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS+BO(5) P5",
+      "paper": 0.109,
+      "reply": null,
+      "ours": 0.10867395226328648,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS+BO(5) P95",
+      "paper": 2.688,
+      "reply": null,
+      "ours": 2.6582019620112747,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS+BO(10) n",
+      "paper": 60,
+      "reply": null,
+      "ours": 60,
+      "verdict": "REPRODUCED",
+      "tolerance": "exact",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS+BO(10) median S",
+      "paper": 0.357,
+      "reply": null,
+      "ours": 0.347669684414651,
+      "verdict": "CLOSE",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS+BO(10) mean S",
+      "paper": 0.69,
+      "reply": null,
+      "ours": 0.6838498875813913,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS+BO(10) P5",
+      "paper": 0.109,
+      "reply": null,
+      "ours": 0.10867395226328648,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "Table 3 / S9",
+      "item": "HGS+BO(10) P95",
+      "paper": 2.688,
+      "reply": null,
+      "ours": 2.6582019620112747,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "Pooled medians",
+      "item": "HGS-only rank 30 (of 60)",
+      "paper": null,
+      "reply": 0.3043,
+      "ours": 0.2840241732701761,
+      "verdict": "DIFFERS",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Pooled medians",
+      "item": "HGS-only rank 31 (of 60)",
+      "paper": null,
+      "reply": 0.41,
+      "ours": 0.4114345327177752,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Win rate (5 slow plants)",
+      "item": "HGS-only < median CS-BO(30), cells",
+      "paper": 29,
+      "reply": 29,
+      "ours": 29,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 2",
+      "note": "29/50 = 58 % (paper 58 %)"
+    },
+    {
+      "section": "Win rate (5 slow plants)",
+      "item": "HGS+BO(5) < median CS-BO(30), cells",
+      "paper": null,
+      "reply": 29,
+      "ours": 29,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 2",
+      "note": "29/50"
+    },
+    {
+      "section": "Win rate (5 slow plants)",
+      "item": "HGS+BO(10) < median CS-BO(30), cells",
+      "paper": null,
+      "reply": 29,
+      "ours": 29,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 2",
+      "note": "29/50"
+    },
+    {
+      "section": "Win rate per plant",
+      "item": "P001 wins /10",
+      "paper": null,
+      "reply": 5,
+      "ours": 6,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 1",
+      "note": ""
+    },
+    {
+      "section": "Win rate per plant",
+      "item": "P049 wins /10",
+      "paper": null,
+      "reply": 10,
+      "ours": 10,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 1",
+      "note": ""
+    },
+    {
+      "section": "Win rate per plant",
+      "item": "P053 wins /10",
+      "paper": null,
+      "reply": 6,
+      "ours": 7,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 1",
+      "note": ""
+    },
+    {
+      "section": "Win rate per plant",
+      "item": "P158 wins /10",
+      "paper": null,
+      "reply": 5,
+      "ours": 3,
+      "verdict": "CLOSE",
+      "tolerance": "abs 1",
+      "note": ""
+    },
+    {
+      "section": "Win rate per plant",
+      "item": "P186 wins /10",
+      "paper": null,
+      "reply": 3,
+      "ours": 3,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 1",
+      "note": ""
+    },
+    {
+      "section": "Win rate vs baseline budget",
+      "item": "CS-BO at 10 evals: HGS-only win %",
+      "paper": null,
+      "reply": 100,
+      "ours": 100.0,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 6",
+      "note": ""
+    },
+    {
+      "section": "Win rate vs baseline budget",
+      "item": "CS-BO at 20 evals: HGS-only win %",
+      "paper": null,
+      "reply": 88,
+      "ours": 84.0,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 6",
+      "note": ""
+    },
+    {
+      "section": "Win rate vs baseline budget",
+      "item": "CS-BO at 25 evals: HGS-only win %",
+      "paper": null,
+      "reply": 68,
+      "ours": 72.0,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 6",
+      "note": ""
+    },
+    {
+      "section": "Win rate vs baseline budget",
+      "item": "CS-BO at 30 evals: HGS-only win %",
+      "paper": null,
+      "reply": 58,
+      "ours": 58.0,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 6",
+      "note": ""
+    },
+    {
+      "section": "Parity diagnostics",
+      "item": "paired rel. diff median %",
+      "paper": null,
+      "reply": -0.04,
+      "ours": -0.058715774782594855,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 0.2",
+      "note": ""
+    },
+    {
+      "section": "Parity diagnostics",
+      "item": "paired rel. diff P25 %",
+      "paper": null,
+      "reply": -0.24,
+      "ours": -0.3465592467673685,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 0.3",
+      "note": ""
+    },
+    {
+      "section": "Parity diagnostics",
+      "item": "paired rel. diff P75 %",
+      "paper": null,
+      "reply": 0.23,
+      "ours": 0.2802717894813196,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 0.3",
+      "note": ""
+    },
+    {
+      "section": "Parity diagnostics",
+      "item": "paired median HGS-only",
+      "paper": null,
+      "reply": 0.2137,
+      "ours": 0.2138256167082767,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Parity diagnostics",
+      "item": "paired median CS-BO(30)",
+      "paper": null,
+      "reply": 0.214,
+      "ours": 0.21460289247193487,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Parity diagnostics",
+      "item": "sign test p (two-sided)",
+      "paper": null,
+      "reply": 0.32,
+      "ours": 0.3222363203575469,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 0.15",
+      "note": ""
+    },
+    {
+      "section": "Parity diagnostics",
+      "item": "1 % band: HGS better",
+      "paper": null,
+      "reply": 7,
+      "ours": 7,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 3",
+      "note": ""
+    },
+    {
+      "section": "Parity diagnostics",
+      "item": "1 % band: tie",
+      "paper": null,
+      "reply": 36,
+      "ours": 39,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 4",
+      "note": ""
+    },
+    {
+      "section": "Parity diagnostics",
+      "item": "1 % band: CS-BO better",
+      "paper": null,
+      "reply": 7,
+      "ours": 4,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 3",
+      "note": ""
+    },
+    {
+      "section": "Parity diagnostics",
+      "item": "within 1 % of CS-BO, % cells",
+      "paper": null,
+      "reply": 86,
+      "ours": 78.0,
+      "verdict": "CLOSE",
+      "tolerance": "abs 6",
+      "note": ""
+    },
+    {
+      "section": "Parity diagnostics",
+      "item": "within 5 % of CS-BO, % cells",
+      "paper": null,
+      "reply": 98,
+      "ours": 92.0,
+      "verdict": "CLOSE",
+      "tolerance": "abs 4",
+      "note": ""
+    },
+    {
+      "section": "Budget-matched (paper 4.2)",
+      "item": "HGS+BO(5) < CS-BO at 5 evals, cells",
+      "paper": 60,
+      "reply": 60,
+      "ours": 60,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 0",
+      "note": "paper: 'beats cold-start BO in every paired run'"
+    },
+    {
+      "section": "Budget-matched (paper 4.2)",
+      "item": "HGS+BO(5) < CS-BO at 30 evals, cells (all 60)",
+      "paper": null,
+      "reply": 29,
+      "ours": 31,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 3",
+      "note": ""
+    },
+    {
+      "section": "CS-BO(30) vs transfer",
+      "item": "per-cell CS-BO seed-median / HGS-only, median",
+      "paper": null,
+      "reply": 0.9999,
+      "ours": 1.0002837673235399,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.005",
+      "note": ""
+    },
+    {
+      "section": "CS-BO(30) vs transfer",
+      "item": "cells where CS-BO better (of 60)",
+      "paper": null,
+      "reply": 31,
+      "ours": 29,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 4",
+      "note": ""
+    },
+    {
+      "section": "CS-BO(30) vs transfer",
+      "item": "real evaluations per cell",
+      "paper": null,
+      "reply": 196,
+      "ours": 196,
+      "verdict": "REPRODUCED",
+      "tolerance": "exact",
+      "note": ""
+    },
+    {
+      "section": "CS-BO(30) vs transfer",
+      "item": "cells with CS-BO within 1 % of best-of-196",
+      "paper": null,
+      "reply": 52,
+      "ours": 52,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 4",
+      "note": ""
+    },
+    {
+      "section": "CS-BO(30) vs transfer",
+      "item": "anchored CS-BO runs improving between evals 25 and 30, %",
+      "paper": null,
+      "reply": 50,
+      "ours": 53.333333333333336,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 10",
+      "note": ""
+    },
+    {
+      "section": "CS-BO(30) vs transfer",
+      "item": "median gain of those runs, %",
+      "paper": null,
+      "reply": 0.66,
+      "ours": 0.6890204117443954,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 0.4",
+      "note": ""
+    },
+    {
+      "section": "Few-shot BO",
+      "item": "HGS+BO(5) improved on transfer, cells",
+      "paper": null,
+      "reply": 3,
+      "ours": 1,
+      "verdict": "CLOSE",
+      "tolerance": "abs 1",
+      "note": "P158/D02 +0.01%"
+    },
+    {
+      "section": "Few-shot BO",
+      "item": "HGS+BO(10) improved on transfer, cells",
+      "paper": null,
+      "reply": 5,
+      "ours": 14,
+      "verdict": "DIFFERS",
+      "tolerance": "abs 1",
+      "note": "P001/D08 +0.97%; P001/D10 +0.05%; P049/D03 +0.05%; P053/D05 +0.08%; P158/D01 +0.05%; P158/D02 +0.02%; P158/D07 +0.06%; P158/D10 +0.04%; P186/D02 +0.24%; P186/D03 +0.01%; P186/D05 +0.03%; P186/D08 +0.08%; P186/D09 +0.07%; P189/D07 +4.06%"
+    },
+    {
+      "section": "Few-shot BO",
+      "item": "HGS+BO(10) star duplicates centre (eval 5 = eval 1), cells",
+      "paper": null,
+      "reply": 59,
+      "ours": 47,
+      "verdict": "DIFFERS",
+      "tolerance": "abs 2",
+      "note": ""
+    },
+    {
+      "section": "Few-shot BO",
+      "item": "HGS+BO(10) first EI step at K_p* = 1 bound, cells",
+      "paper": null,
+      "reply": 54,
+      "ours": 52,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 4",
+      "note": ""
+    },
+    {
+      "section": "Few-shot BO",
+      "item": "arm-cells where an EI step delivered the final best (of 120)",
+      "paper": null,
+      "reply": 2,
+      "ours": 2,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 2",
+      "note": "HGS+BO(5) has no EI step"
+    },
+    {
+      "section": "WS-BO seeding (Fig. 7a)",
+      "item": "eval 1 median",
+      "paper": null,
+      "reply": 17.14,
+      "ours": 17.140791377815457,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.03",
+      "note": ""
+    },
+    {
+      "section": "WS-BO seeding (Fig. 7a)",
+      "item": "running best, evals 2-5 median",
+      "paper": 10.7,
+      "reply": 10.709,
+      "ours": 10.709209362187774,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.03",
+      "note": ""
+    },
+    {
+      "section": "WS-BO seeding (Fig. 7a)",
+      "item": "running best at eval 6 median",
+      "paper": null,
+      "reply": 2.75,
+      "ours": 2.7518511350026515,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "WS-BO seeding (Fig. 7a)",
+      "item": "K_p* -30 % point improves running best, runs",
+      "paper": null,
+      "reply": 180,
+      "ours": 180,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 3",
+      "note": ""
+    },
+    {
+      "section": "WS-BO seeding (Fig. 7a)",
+      "item": "other star points improve running best, runs",
+      "paper": null,
+      "reply": 0,
+      "ours": 0,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 3",
+      "note": ""
+    },
+    {
+      "section": "WS-BO seeding (Fig. 7a)",
+      "item": "eval 5 repeats eval 1 (T_I clipped), runs",
+      "paper": null,
+      "reply": 120,
+      "ours": 120,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 6",
+      "note": ""
+    },
+    {
+      "section": "WS-BO seeding (Fig. 7a)",
+      "item": "seed 0: first random draw improves, cells",
+      "paper": null,
+      "reply": 60,
+      "ours": 60,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 3",
+      "note": ""
+    },
+    {
+      "section": "WS-BO seeding (Fig. 7a)",
+      "item": "seed 2: first random draw improves, cells",
+      "paper": null,
+      "reply": 41,
+      "ours": 41,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 3",
+      "note": ""
+    },
+    {
+      "section": "WS-BO seeding (Fig. 7a)",
+      "item": "seed 1: first random draw improves, cells",
+      "paper": null,
+      "reply": 0,
+      "ours": 0,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 3",
+      "note": ""
+    },
+    {
+      "section": "Fig. 7a",
+      "item": "CS-BO median running best at 5 evals",
+      "paper": 0.878,
+      "reply": null,
+      "ours": 0.877573682469091,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "Fig. 7a",
+      "item": "CS-BO median running best at 30 evals",
+      "paper": 0.407,
+      "reply": null,
+      "ours": 0.4073606071323401,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "Fig. 7a",
+      "item": "CS-BO curve: max rel. deviation over 30 evals",
+      "paper": 0.0,
+      "reply": null,
+      "ours": 0.0029067657252298137,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 0.05",
+      "note": "authors' figure data (fig7a_convergence_reference.csv)"
+    },
+    {
+      "section": "Fig. 7a",
+      "item": "WS-BO curve: max rel. deviation over 30 evals",
+      "paper": 0.0,
+      "reply": null,
+      "ours": 0.002679272202993423,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 0.05",
+      "note": ""
+    },
+    {
+      "section": "P189 exception",
+      "item": "HGS-only wins on P189, cells",
+      "paper": 0,
+      "reply": null,
+      "ours": 2,
+      "verdict": "DIFFERS",
+      "tolerance": "abs 0",
+      "note": ""
+    },
+    {
+      "section": "P189 exception",
+      "item": "P189 HGS-only median S",
+      "paper": 2.53,
+      "reply": null,
+      "ours": 2.506819241371778,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "P189 exception",
+      "item": "P189 CS-BO(30) median S",
+      "paper": 2.49,
+      "reply": null,
+      "ours": 2.493410917964361,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.02",
+      "note": ""
+    },
+    {
+      "section": "P189 exception",
+      "item": "P189 twin parameter error (median %)",
+      "paper": 293,
+      "reply": null,
+      "ours": 282.1223692741638,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.1",
+      "note": ""
+    },
+    {
+      "section": "Logging-only protocol",
+      "item": "HGS-only win rate %",
+      "paper": 5,
+      "reply": null,
+      "ours": 8.333333333333334,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 5",
+      "note": "5/60"
+    },
+    {
+      "section": "Logging-only protocol",
+      "item": "HGS-only median S",
+      "paper": 0.557,
+      "reply": null,
+      "ours": 0.5554806072259686,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": "paper prints this as a paired-scope median"
+    },
+    {
+      "section": "Logging-only protocol",
+      "item": "CS-BO median S (per-cell seed medians)",
+      "paper": 0.419,
+      "reply": null,
+      "ours": 0.4196407684795548,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.05",
+      "note": ""
+    },
+    {
+      "section": "Sim-to-real gap",
+      "item": "logging-only median gap %, (S_twin - S_plant) / S_plant",
+      "paper": -16.2,
+      "reply": null,
+      "ours": 20.08695576044181,
+      "verdict": "DIFFERS",
+      "tolerance": "abs 3",
+      "note": "first reading tried; opposite sign to the paper"
+    },
+    {
+      "section": "Sim-to-real gap",
+      "item": "logging-only median gap %, (S_plant - S_twin) / S_twin",
+      "paper": -16.2,
+      "reply": null,
+      "ours": -16.72641551575228,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 3",
+      "note": "definition INFERRED: the paper prints only the medians; this reading matches both of them"
+    },
+    {
+      "section": "Sim-to-real gap",
+      "item": "field-matched median gap %, (S_twin - S_plant) / S_plant",
+      "paper": -1.16,
+      "reply": null,
+      "ours": 0.8958772616846828,
+      "verdict": "CLOSE",
+      "tolerance": "abs 1.5",
+      "note": "first reading tried"
+    },
+    {
+      "section": "Sim-to-real gap",
+      "item": "field-matched median gap %, (S_plant - S_twin) / S_twin",
+      "paper": -1.16,
+      "reply": null,
+      "ours": -0.8879225270907061,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 1.5",
+      "note": "definition INFERRED (see logging-only line)"
+    },
+    {
+      "section": "Evaluator facts",
+      "item": "twin optima with T_I on the 30 s bound (of 60)",
+      "paper": null,
+      "reply": 59,
+      "ours": 47,
+      "verdict": "DIFFERS",
+      "tolerance": "abs 2",
+      "note": ""
+    },
+    {
+      "section": "Evaluator facts",
+      "item": "delivered runs with T_I at 30 s (of 540)",
+      "paper": null,
+      "reply": 320,
+      "ours": 289,
+      "verdict": "CLOSE",
+      "tolerance": "abs 25",
+      "note": ""
+    },
+    {
+      "section": "Evaluator facts",
+      "item": "plants whose nominal auto_Ti exceeds 30 s (of 6)",
+      "paper": null,
+      "reply": 4,
+      "ours": 4,
+      "verdict": "REPRODUCED",
+      "tolerance": "exact",
+      "note": "P001 18.5 s, P049 36.8 s, P053 37.0 s, P158 36.3 s, P186 49.8 s, P189 17.7 s"
+    },
+    {
+      "section": "Evaluator facts",
+      "item": "delivered gain pairs with OS <= 8.4 %, %",
+      "paper": null,
+      "reply": 98,
+      "ours": 98.51851851851852,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 3",
+      "note": ""
+    },
+    {
+      "section": "Evaluator facts",
+      "item": "median OS at delivered gains, %",
+      "paper": null,
+      "reply": 2.36,
+      "ours": 2.337487454520497,
+      "verdict": "REPRODUCED",
+      "tolerance": "rel 0.15",
+      "note": ""
+    },
+    {
+      "section": "Evaluator facts",
+      "item": "overshoot term share of median cost, %",
+      "paper": null,
+      "reply": 7,
+      "ours": 6.700183306159413,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 3",
+      "note": ""
+    },
+    {
+      "section": "Evaluator facts",
+      "item": "integrator peak at delivered HGS gains, max N s",
+      "paper": null,
+      "reply": 20,
+      "ours": 21.53559466866037,
+      "verdict": "REPRODUCED",
+      "tolerance": "abs 5",
+      "note": "a +-200 N s clamp is inert if this stays far below 200"
+    },
+    {
+      "section": "Evaluator facts",
+      "item": "non-finite (diverging) evaluations, whole campaign",
+      "paper": null,
+      "reply": 0,
+      "ours": 0,
+      "verdict": "REPRODUCED",
+      "tolerance": "exact",
+      "note": ""
+    }
+  ]
+}

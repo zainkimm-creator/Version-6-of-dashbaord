@@ -1,0 +1,3 @@
+# Same as requirements.txt, with JAX's CUDA 12 build (the BO campaign ran on an RTX 5070 Ti).
+-r requirements.txt
+jax[cuda12]==0.10.2

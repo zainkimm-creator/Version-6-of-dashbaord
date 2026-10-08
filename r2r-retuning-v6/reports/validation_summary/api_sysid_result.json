@@ -1,0 +1,65 @@
+{
+  "estimates": {
+    "kt_UW": 0.1965132159520703,
+    "kt_Nip": 0.037525764717339045,
+    "kt_RW": 0.20052580748883758,
+    "kf_UW": 6.179546490619591,
+    "kf_Nip": 3.752573714764224,
+    "kf_RW": 6.307181312813254,
+    "EA": 3180.248884914248
+  },
+  "MARE_theta": 0.012776389009870609,
+  "metric_name": "MARE_theta",
+  "metric_formula": "mean(abs((theta_hat-theta_true)/theta_true))",
+  "error_table": [
+    {
+      "parameter": "kt_UW",
+      "estimate": 0.1965132159520703,
+      "truth": 0.20222901312241595,
+      "absolute_error": -0.005715797170345649,
+      "relative_error": -0.028263981918784754
+    },
+    {
+      "parameter": "kt_Nip",
+      "estimate": 0.037525764717339045,
+      "truth": 0.03770795939606933,
+      "absolute_error": -0.0001821946787302839,
+      "relative_error": -0.004831730002055635
+    },
+    {
+      "parameter": "kt_RW",
+      "estimate": 0.20052580748883758,
+      "truth": 0.20222901312241595,
+      "absolute_error": -0.0017032056335783696,
+      "relative_error": -0.00842216261297464
+    },
+    {
+      "parameter": "kf_UW",
+      "estimate": 6.179546490619591,
+      "truth": 6.3607585834981135,
+      "absolute_error": -0.18121209287852214,
+      "relative_error": -0.028489069424619498
+    },
+    {
+      "parameter": "kf_Nip",
+      "estimate": 3.752573714764224,
+      "truth": 3.7707959396069324,
+      "absolute_error": -0.01822222484270819,
+      "relative_error": -0.004832461139386841
+    },
+    {
+      "parameter": "kf_RW",
+      "estimate": 6.307181312813254,
+      "truth": 6.3607585834981135,
+      "absolute_error": -0.05357727068485918,
+      "relative_error": -0.008423094506975336
+    },
+    {
+      "parameter": "EA",
+      "estimate": 3180.248884914248,
+      "truth": 3200.0,
+      "absolute_error": -19.75111508575219,
+      "relative_error": -0.00617222346429756
+    }
+  ]
+}

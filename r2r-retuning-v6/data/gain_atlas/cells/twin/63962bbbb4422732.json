@@ -1,0 +1,33 @@
+{
+  "Kp_star_sysid": 100.0,
+  "LPF_T_hz": 200.0,
+  "LPF_v_hz": 200.0,
+  "MARE_theta_pct": 53.896717968404275,
+  "S_achieved_on_physical": 0.8832555413246155,
+  "S_on_twin": 0.49413734674453735,
+  "T_log_ms": 1.0,
+  "atlas_version": "gain_atlas_v5",
+  "converged": true,
+  "eval_model": "stepseq-clean-true-clamp",
+  "excitation": "E_Toggle",
+  "gains": {
+    "evaluations": 2809,
+    "kp_on_bound": null,
+    "kp_star": 69.42563777496768,
+    "plant_auto_ti_s": 49.82209189836494,
+    "search": "hierarchical_grid_search on the twin (paper budget)",
+    "ti_s": 3816.4440681902297,
+    "ti_scale_on_bound": null,
+    "ti_scale_on_twin": 76.60306381591394
+  },
+  "kind": "twin",
+  "pct_T": 0.003,
+  "pct_v": 0.003,
+  "plant_id": "P09",
+  "produced_at": "2026-09-11T06:28:34.253645+00:00",
+  "record_s": 16.0,
+  "run_hash": "63962bbbb4422732",
+  "seconds": 2.779012680053711,
+  "seed": 0,
+  "twin_auto_ti_s": 49.82103688909347
+}

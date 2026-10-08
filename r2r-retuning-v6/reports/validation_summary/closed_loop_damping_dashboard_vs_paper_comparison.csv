@@ -1,0 +1,7 @@
+condition,kp_star,paper_MARE_theta_percent,dashboard_MARE_theta_percent,validation_error_percent,pass_fail,valid_run_count,expected_run_count,aggregation,dashboard_source
+NF,50,21.0,21.245985712829196,1.171,PASS,10,10,median_over_requested_plant_seed_rows,fresh_simulation_eq8_weighted_pem
+NF,100,,25.109735708999303,,NO_REFERENCE,10,10,median_over_requested_plant_seed_rows,fresh_simulation_eq8_weighted_pem
+NF,200,32.0,32.16387926975688,0.512,PASS,10,10,median_over_requested_plant_seed_rows,fresh_simulation_eq8_weighted_pem
+SN,50,32.5,33.11934787330193,1.906,PASS,30,30,median_over_requested_plant_seed_rows,fresh_simulation_eq8_weighted_pem
+SN,100,30.8,30.787787134910136,0.04,PASS,10,10,median_over_requested_plant_seed_rows,fresh_simulation_eq8_weighted_pem
+SN,200,32.0,32.57242571510286,1.789,PASS,30,30,median_over_requested_plant_seed_rows,fresh_simulation_eq8_weighted_pem

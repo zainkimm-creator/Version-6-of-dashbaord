@@ -1,0 +1,28 @@
+{
+  "source": "paper1_isa_v4.1.pdf Figure 5 and paper1_isa_supplement_v4.1.pdf Figure S10",
+  "metric": "MARE_theta_percent",
+  "experiment": {
+    "excitation": "E_Toggle",
+    "plant_count": 10,
+    "noise_percent_full_scale": 0.3,
+    "sensor_channels": "tension_only",
+    "lpf_hz": 50,
+    "noise_seed": 0
+  },
+  "values": [
+    {"case": "noise_free", "Tlog_ms": 1, "MARE_theta_percent": 0.0, "plant_count": 10, "value_status": "paper_text_exact"},
+    {"case": "noise_free", "Tlog_ms": 2, "MARE_theta_percent": 0.8, "plant_count": 10, "value_status": "figure_digitized"},
+    {"case": "noise_free", "Tlog_ms": 5, "MARE_theta_percent": 3.4, "plant_count": 10, "value_status": "paper_text_exact"},
+    {"case": "noise_free", "Tlog_ms": 10, "MARE_theta_percent": 7.6, "plant_count": 10, "value_status": "figure_digitized"},
+    {"case": "noise_free", "Tlog_ms": 20, "MARE_theta_percent": 16.4, "plant_count": 10, "value_status": "figure_digitized"},
+    {"case": "noise_free", "Tlog_ms": 50, "MARE_theta_percent": 38.8, "plant_count": 10, "value_status": "paper_text_exact"},
+    {"case": "noise_free", "Tlog_ms": 100, "MARE_theta_percent": 73.4, "plant_count": 10, "value_status": "figure_digitized"},
+    {"case": "sensor_noise", "Tlog_ms": 1, "MARE_theta_percent": 169.0, "plant_count": 10, "value_status": "paper_text_lower_bound_and_figure_S10_rounded"},
+    {"case": "sensor_noise", "Tlog_ms": 2, "MARE_theta_percent": 93.0, "plant_count": 10, "value_status": "figure_S10_reported"},
+    {"case": "sensor_noise", "Tlog_ms": 5, "MARE_theta_percent": 50.0, "plant_count": 10, "value_status": "figure_S10_reported"},
+    {"case": "sensor_noise", "Tlog_ms": 10, "MARE_theta_percent": 30.0, "plant_count": 10, "value_status": "figure_S10_reported"},
+    {"case": "sensor_noise", "Tlog_ms": 20, "MARE_theta_percent": 23.2, "plant_count": 10, "value_status": "paper_text_exact"},
+    {"case": "sensor_noise", "Tlog_ms": 50, "MARE_theta_percent": 42.0, "plant_count": 10, "value_status": "figure_S10_reported"},
+    {"case": "sensor_noise", "Tlog_ms": 100, "MARE_theta_percent": 77.2, "plant_count": 10, "value_status": "paper_text_exact"}
+  ]
+}

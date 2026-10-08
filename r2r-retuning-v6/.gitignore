@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Runtime output (recreated by the app)
+logs/
+data/processed/
+data/session/
+reports/figures/
+reports/artifacts/

@@ -1,0 +1,38 @@
+{
+  "campaign_version": "author_spec_v1_20260915",
+  "eval_key": "author-step3-30s-noclamp-ffmeas-v1",
+  "eval": {
+    "dt": 0.001,
+    "t_sim": 30.0,
+    "t_step": 5.0,
+    "step_fraction": 0.2,
+    "scales": [
+      3.0,
+      20.0,
+      3.0
+    ],
+    "w_os": 2.0,
+    "band": 0.02
+  },
+  "search": {
+    "kp_bounds": [
+      1.0,
+      500.0
+    ],
+    "ti_bounds_s": [
+      0.5,
+      30.0
+    ],
+    "gp_noise": 1e-06,
+    "star_step": 0.3,
+    "ws_kp_centre": 100.0,
+    "hgs_stages": {
+      "coarse_side": 30,
+      "lhs": 1000,
+      "fine_side": 30,
+      "polish": 5
+    },
+    "nonfinite_cost": 1000.0
+  },
+  "config_hash": "9202a65abc407933"
+}
